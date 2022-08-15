@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router';
 import { UserContext } from '../lib/context'
 import { useContext } from 'react'
+import {auth} from '../lib/firebase'
 
 // Top navbar
 export default function Navbar() {
